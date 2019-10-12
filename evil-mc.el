@@ -107,7 +107,7 @@
   "Toggle evil multiple cursors in a single buffer."
   :group 'evil-mc
   :init-value nil
-  :keymap evil-mc-key-map
+  ;; do not implement any default keymap
   :lighter evil-mc-mode-line
   (cond (evil-mc-mode
          (evil-mc-define-vars)
